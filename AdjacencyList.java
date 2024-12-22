@@ -1,14 +1,12 @@
-import java.awt.*;
 import java.util.*;
 
 public class AdjacencyList {
-
 
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Enter the number of nodes : ");
+        System.out.print("Enter the number of nodes [0 based indexing] : ");
         int nodes = sc.nextInt();
 
         System.out.print("Enter the number of edges: ");
